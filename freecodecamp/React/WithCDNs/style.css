@@ -1,0 +1,26 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px lightgrey;
+}
+
+
+.nav-items {
+    list-style: none; 
+    display: flex;
+    gap: 50px;
+    font-size: 20px; 
+    margin-right: 30px; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+</head>
+
+<body>
+
+    <select name="" id="">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="purple">Purple</option>
+        <option value="orange">Orange</option>
+    </select>
+
+    <script>
+        const color = document.querySelector('select');
+
+        color.addEventListener('change', setColor);
+
+        function setColor() {
+
+            const choice = color.value;
+
+            if (choice === 'red') document.body.style.backgroundColor = 'red';
+
+            else if (choice === 'blue') document.body.style.backgroundColor = 'blue';
+
+            else if (choice === 'green') document.body.style.backgroundColor = 'green';
+            else if (choice === 'purple') document.body.style.backgroundColor = 'purple';
+            else if (choice === 'yellow') document.body.style.backgroundColor = 'yellow';
+            else if (choice === 'orange') document.body.style.backgroundColor = 'orange';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!-- What We Learned from this project 
+    First project of many to come!
+    first we learned that with keyup in addEventListener will 
+    track what we are typing.
+
+    target is an event property that allows one to grab 
+    what triggered the event. Like putting the value of 
+    an input in a variable
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="color" placeholder="Type Color Here">
+
+   <!-- Original, albeit very rudimentary implementation
+    
+    <script>
+        const textBox = document.getElementById("color");
+
+        textBox.addEventListener('change', setColor);
+        function setColor() {
+            
+            const choice = textBox.value;
+
+            if (choice == 'red') document.body.style.backgroundColor = 'red';
+            if (choice == 'yellow') document.body.style.backgroundColor = 'yellow';
+            if (choice == 'blue') document.body.style.backgroundColor = 'blue';
+        }
+    </script>
+
+-->
+
+<!-- Far better/ more elegant implementation -->
+    <script>
+        const text = document.getElementById('color');
+
+        /*create a function with input of color*/
+        text.addEventListener('keyup', (color) => {
+            const bgColor = color.target.value; 
+            document.body.style.backgroundColor = bgColor;
+        })
+
+
+    </script>
+
+
+
+</body>
+
+</html>

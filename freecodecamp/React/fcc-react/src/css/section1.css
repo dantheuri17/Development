@@ -1,0 +1,82 @@
+body, .App, .appNavbar, .appMain{
+    margin: 0;
+    padding: 0;
+}
+
+.pageNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21222A;
+    color: #DEEBF8;
+    align-items: center;
+}
+
+.logo{
+     width: 50px; 
+}
+
+.logoContainer {
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+    color: #61DAFB;
+    font-size: 1.6em;
+    margin-left: 30px; 
+}
+
+.navDescription {
+    padding-right: 40px;
+    font-size: 1.5em;
+}
+
+/*--------Main Content-----------*/
+.main {
+    background-color: #282D35;
+    overflow:auto;
+    height:100vh;
+    display: flex; 
+}
+
+.mainHeader {
+    color: white; 
+    font-size: 2.7em;
+    margin: 30px; 
+}
+
+.list-items{
+    margin-left: 60px; 
+}
+
+.list-items > li::marker {
+    font-size: 1.4em; 
+    color: #61DAFB;
+}
+
+.list-items > li {
+    color: white; 
+    font-size:1.5em; 
+}
+
+.reactjsIconContainer {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    
+}
+
+
+.reactjsIconContainer > img {
+    width: 100%; 
+    height: auto; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}

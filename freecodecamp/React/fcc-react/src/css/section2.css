@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0; 
+
+}
+
+
+/*-------Header & Navbar---------*/
+
+.AirBnb--nav {
+    display: flex; 
+    align-items:center; 
+    padding: .8em;
+    box-shadow: 0px 0px 1em grey;
+}
+
+.AirBnb--navLogo {
+    width: 10%;
+    object-fit:cover;
+}
+
+.AirBnb--mainHeaderContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.AirBnb--headerImgContainer {
+    width: 60%;
+    align-self: center;
+    margin-top: 3em;
+}
+
+.AirBnb--headerTextContainer {
+    padding-left: 15%;
+    margin-top: 2em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.AirBnb--headerTextContainer > h1 {
+    font-size: 4.5em;
+}
+
+.AirBnb--headerTextContainer > p {
+    font-size: 2em;
+}
+
+.AirBnb-headerImg {
+    width: 100%;
+}
+
+/*----- Card ----*/ 
+
+
+/* .AirBnb--cardContainer {
+   display: flex; 
+   justify-content: center;
+}
+
+.AirBnb--card {
+    margin-top: 2em;
+
+}
+
+.AirBnb--card > div {
+    margin: 0;
+}
+
+div > p {
+    margin: 0; 
+    
+}
+
+ p {
+    padding-left: .3em;
+    font-size:1.4em;
+}
+
+.AirBnb--cardRating > p {
+    display: inline-block;
+} */
+
+/*-----Cats-------*/
+
+/* .App {
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap;
+
+} */
+
+.contact {
+    display: flex; 
+    background-color: lightblue;
+    flex-wrap:wrap;
+    
+
+}
+
+.contact--card {
+    /* width: 30%; */
+    text-align: center;
+    background-color: lightgreen;
+    margin: 2em; 
+}
+
+.contact--cardImage {
+    width: 200px; 
+}
