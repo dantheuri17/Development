@@ -1,3 +1,6 @@
 [submodule "CheatSheets/CheatSheets-HTML-CSS-JavaScript"]
 	path = CheatSheets/CheatSheets-HTML-CSS-JavaScript
 	url = https://github.com/dantheuri17/CheatSheets-HTML-CSS-JavaScript.git
+[submodule "freecodecamp/react-router-6-smilga"]
+	path = freecodecamp/react-router-6-smilga
+	url = https://github.com/dantheuri17/react-router-6-tutorial.git
